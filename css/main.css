@@ -1,0 +1,282 @@
+/*---------------------------------------------------GENERALES--------------------------------------------------------------------------*/
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.subtitulo{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    font-size: .65rem;
+    margin-top: 0.8rem;
+}
+
+
+
+/*-----------------------------------------------------NAVBAR----------------------------------------------------------------------------*/
+
+.navbar{
+    background-color: rgb(53, 58, 64);
+    padding: 0.5rem 5%;
+}
+
+.nav-link-es {
+    color: rgb(2, 153, 2);
+}
+
+.img-logo{
+    width: 50px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------HEADER-------------------------------------------------------------------------*/
+
+
+.img-header{
+    width: 100%;
+    filter: brightness(0.45);
+}
+
+header h2{
+    font-size: 2rem;
+}
+
+.cartel-header{
+    width: 100%;
+    height: 100%;
+    padding: 6rem;
+    color: aliceblue;
+    z-index: 5;
+}
+
+.cartel{
+    padding: 4rem 0 0;
+    text-align: justify;
+}
+
+.cartel p{
+  max-width: 600px;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 0.8px rgb(0, 0, 0)
+}
+
+.botones a {
+    text-decoration: underline;
+}
+
+.botones button{
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+    
+}
+
+.btn-orador, .btn-bsAs {
+    background-color: transparent;
+    border: 1px solid aliceblue;
+}
+
+.btn-orador:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: all 1s;
+}
+
+.btn-tickets{
+    background-color: rgb(41, 167, 68);
+    border: none;
+}
+
+.btn-tickets:hover{
+    background-color: rgb(17, 77, 30);
+    transition: all 1s;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------SECCION ORADORES-------------------------------------------------------------------*/
+
+.cards-oradores{
+    gap: 20px;
+}
+
+.card_orador_1, .card_orador_2 , .card_orador_3{
+    border-radius: none;
+    width: 20rem;
+    border: 1px rgb(202, 199, 199) solid;
+}
+
+.js, .react , .neg , .stp{
+    font-weight: 900;
+    margin: 5px;
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-size: .65rem;
+}
+
+.js {
+    background-color: #ffc800;
+}
+
+.react{
+    background-color: rgb(21, 161, 184);;
+    color: aliceblue;
+}
+
+.neg{
+    background-color: rgb(106, 116, 125);
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.stp{
+    background-color: rgb(219, 54, 70);
+    color: aliceblue;
+}
+
+.oradores h3{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.card_body_orador{
+    margin-left: 10px;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------SECCION LUGAR BUENOS AIRES-----------------------------------------------------------------*/
+
+.imagen-bsas{
+    border: solid 1px aliceblue;
+}
+
+.card-bsAs{
+    background-color: rgb(53, 58, 64);
+    border: solid 1px aliceblue;
+    color: aliceblue;
+}
+
+.bsAs h4{
+font-size: 1.5rem;
+}
+
+.card-text{
+    font-size: .76rem;
+    line-height: 1.3rem;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------FORM ORADOR--------------------------------------*/
+
+.form_orador{
+    max-width: 650px;
+}
+
+.aviso{
+    font-size: 0.75rem;
+    color: gray;
+}
+
+.inputs-form{
+    gap: 5px;
+}
+
+
+textarea{
+    margin-top: 10px;
+    height: 100px;
+}
+
+
+.btn-enviar{
+    background-color: rgb(150, 201, 62);
+    border: none;
+    height: 2.5rem;
+    font-size: 1rem;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------form ticket---------------------------------------------------------------*/
+.card-ticket{
+    margin-top: 4rem;
+    gap: 5px;
+    max-width: 650px;
+}
+
+.card1{
+    border: 1px solid rgb(52, 156, 254);
+    border-radius: 0;
+    padding: 20px 10px;
+}
+
+.card2{
+    border: 1px solid rgb(38, 181, 42);
+    border-radius: 0;
+    padding: 20px 10px;
+
+}
+
+.card3{
+
+    border: 1px solid rgb(255, 187, 0);
+    border-radius: 0;
+    padding: 20px 10px;
+
+}
+
+
+#form_ticket{
+    width: 50%;
+    max-width: 640px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.btn_borrar, .btn_resumen{
+    color: aliceblue;
+    background-color: rgb(150, 201, 62);
+    height: 2.5rem;
+    font-size: 1rem;
+    border: none;
+}
+
+
+.salida{
+    background-color: rgb(204, 229, 255);
+    padding: 10px 20px;
+    margin-top: 25px;
+    font-size: 1rem;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------FOOTER-------------------------------------------*/
+
+footer{
+    background: linear-gradient(90deg, rgba(28,54,67,1) 41%, rgba(30,83,113,1) 80%);
+    min-height: 5.2rem;
+}
+
+.list-inline-item a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+
+
+
